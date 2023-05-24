@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5c39543b75.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5c39543b75.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Web <span>Devloper</span></a></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+           </div>
+        </div>
+    </nav>
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, I am</div>
+                <div class="text-2">Dharshan Raaj</div>
+                <div class="text-3">And, I'm a <span>Full Stack Web Devloper</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="tittle">About me</h2>
+            <div class="about-content">
+                <div class="coloumn left">
+                    <img src="images/image-2.jpg" alt="My pic">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Dharshan Raaj and I'm currently pursuing <span>Integrated Mtech in CSE at VIT, Vellore.</span></div>
+                    <p>I am a versatile professional with expertise in both full stack web development and machine learning engineering. With a strong background in web technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular, I excel at building dynamic and responsive web applications. Additionally, my knowledge and experience in machine learning allow me to develop intelligent systems that can analyze complex data, make predictions, and drive actionable insights. With a passion for both frontend and backend development, coupled with the ability to leverage machine learning algorithms, I am able to deliver innovative and impactful solutions that bridge the gap between web development and data-driven decision-making.</p>
+                    <a onclick="window.location.href='/Dharshan_Resume.pdf';" download="Resume"><i class="fa fa-download fas"></i> Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="tittle">My Skills</h2>
+            <div class="skills-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js-square"></i>
+                        <i class="fab fa-angular"></i>
+                        <div class="text">Frontend Development</div>
+                        <p>HTML, CSS, JavaScript, Angular</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-database"></i>
+                        <div class="text">Database Systems</div>
+                        <p>SQL, NoSQL</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-java"></i>
+                        <i class="fab fa-python"></i>
+                        <i class="fas fa-code"></i>
+                        <div class="text">Programming Languages</div>
+                        <p>C, C++, Python, Java</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://seeklogo.com/images/D/django-logo-F46C1DD95E-seeklogo.com.png" class="image-1"/>
+                        <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" class="image-2"/>
+                        <div class="text">Backend Development</div>
+                        <p>Django, NodeJs</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/canva.png" class="image-3" />
+                        <i class="fab fa-figma"></i>
+                        <div class="text">UI/UX</div>
+                        <p>Canva, Figma</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" class="image-3" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="image-4" />
+                        <div class="text">Version Controls</div>
+                        <p>Git, Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- project section -->
+    <section class="project" id="projects">
+        <div class="max-width">
+            <h2 class="tittle">My Projects</h2>
+            <div class="project-content">
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/PowerZone-Gym-App" target="_blank" class="git-text">Github</a>
+                        <img src="images/gym.png" class="image-proj"/> 
+                        <div class="proj-text">Power Zone Gym App</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/Herbal-Medicine-Predictor-Backend" target="_blank" class="git-text">Github</a>
+                        <img src="images/Medicine-Predictor.png" class="image-proj"/> 
+                        <div class="proj-text">Herbal Medicine Predictor</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/Movie-App" target="_blank" class="git-text">Github</a>
+                        <img src="images/image-proj-3.png" class="image-proj"/> 
+                        <div class="proj-text">Movie App</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/Review-card" target="_blank" class="git-text">Github</a>
+                        <img src="images/image-proj-5.png" class="image-proj"/> 
+                        <div class="proj-text">Review-Card</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/Celebrity-App/tree/%3Cmain%3E" target="_blank" class="git-text">Github</a>
+                        <img src="images/image-proj.png" class="image-proj"/> 
+                        <div class="proj-text">Celebrity-App</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <a  href="https://github.com/Dharshan4038/Notes-App/tree/master" target="_blank" class="git-text">Github</a>
+                        <img src="images/image-proj-6.png" class="image-proj"/> 
+                        <div class="proj-text">Notes App</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section class="education" id="education">
+        <div class="max-width">
+            <h2 class="tittle">Education</h2>
+            <div class="education-content">
+                <div class="edu">
+                    <div class="sub-edu">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png" class="clg-logo"/>
+                        <div class="edu-details">
+                            <h2 class="scl-name">Vellore Institute of Technology</h2>
+                            <h4 class="branch">Integrated MTech Computer Science in collaboration with VIRTUSA</h4>
+                            <h3 class="year">2020-2025</h3>
+                            <h4 class="address">Vellore, Tamil Nadu, India</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="edu">
+                    <div class="sub-edu">
+                        <img src="images/royal-img.png" class="clg-logo"/>
+                        <div class="edu-details">
+                            <h2 class="scl-name">Royal International School</h2>
+                            <h4 class="branch">CBSE (10+2)</h4>
+                            <h4 class="pcmc">PCMC</h4>
+                            <h4 class="grade">Grade: 88%</h4>
+                            <h3 class="year">2018-2020</h3>
+                            <h4 class="address">Namakkal, Tamil Nadu, India</h4>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="edu">
+                    <div class="sub-edu">
+                        <img src="images/sps-img.png" class="clg-logo"/>
+                        <div class="edu-details">
+                            <h2 class="scl-name">Senthil Public School</h2>
+                            <h4 class="branch">CBSE (10)</h4>
+                            <h4 class="grade">Grade: 79%</h4>
+                            <h3 class="year">2017-2018</h3>
+                            <h4 class="address">Salem, Tamil Nadu, India</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Me Section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="tittle">Contact Me</h2>
+            <div class="contact-content">
+                <div class="con">
+                    <form class="contact-form" name="form1" action="mailto:dharshand9@gmail.com">
+                        <input type="text" placeholder="Enter your name" class="inp-box" required/>
+                        <input type="email" placeholder="Enter your email" class="inp-box" required/>
+                        <textarea placeholder="Enter Message" class="inp-box message" required></textarea>
+                        <button class="send-btn" type="submit" onclick="submitForm()"><i class="fa fa-paper-plane"></i> SEND</button>
+                    </form>
+                    <div class="contact-details">
+                        <h3><i class="fa fa-map-marker fas"></i>Salem, Tamil Nadu</h3>
+                        <h3><i class="fa fa-envelope fas"></i> dharshand9@gmail.com</h3>
+                        <h3><i class="fa fa-phone fas"></i> 7010766630</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Foooter Section -->
+    <div class="footer" id="footer">
+        <div class="footer-content">
+            <div class="foot">
+                <li><a href="https://www.facebook.com/dharshan.vijay.58/" target="_blank"><i class="fa fa-facebook faf" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/dharshan_.4038/" target="_blank"><i class="fa fa-instagram faf" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/dharshan-raaj-9a652b217/" target="_blank"><i class="fa fa-linkedin faf" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/Dharshan4038" target="_blank"><i class="fa fa-github faf" aria-hidden="true"></i></a></li>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
